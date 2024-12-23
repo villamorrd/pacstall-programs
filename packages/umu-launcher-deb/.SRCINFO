@@ -1,0 +1,13 @@
+pkgbase = umu-launcher-deb
+	gives = umu-launcher
+	pkgver = 1.1.4
+	pkgdesc = A tool for launching non-steam games with Proton.
+	url = https://github.com/Open-Wine-Components/umu-launcher
+	arch = amd64
+	license = GPL-3.0
+	maintainer = villamorrd <villamorrd@students.nu-moa.edu.ph>
+	repology = project: umu-launcher
+	source = https://github.com/Open-Wine-Components/umu-launcher/releases/download/1.1.4/Ubuntu-24.zip
+	sha256sums = 7034afd1140f369f5b37aacaa60536f5eafe2789db3a0b39f2eae24285b54147
+
+pkgname = umu-launcher-deb
