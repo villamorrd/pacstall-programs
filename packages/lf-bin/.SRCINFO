@@ -1,6 +1,7 @@
 pkgbase = lf-bin
 	gives = lf
 	pkgver = 31
+	pkgrel = 2
 	pkgdesc = Terminal file manager written in Go
 	arch = amd64
 	arch = i386

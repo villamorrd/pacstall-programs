@@ -1,6 +1,7 @@
 pkgbase = starship-bin
 	gives = starship
 	pkgver = 1.19.0
+	pkgrel = 2
 	pkgdesc = The minimal, blazing-fast, and infinitely customizable prompt for any shell
 	arch = amd64
 	breaks = starship

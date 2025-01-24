@@ -1,6 +1,7 @@
 pkgname="topgrade-bin"
 gives="topgrade"
 pkgver="16.0.1"
+pkgrel="2"
 arch=('amd64' 'arm64')
 sha256sums_amd64=("5149ee536b15764bcdecb3fe971d99edfb82096f9f8112be3ff6f4e6acb6557f")
 sha256sums_arm64=("d114d4de129754d8e997d5a5021c42f11a8c5d0545ebd17dd1b55e55c4a2e61f")
@@ -12,6 +13,5 @@ repology=("project: ${gives}")
 maintainer=("Oren Klopfer <oren@taumoda.com>")
 
 package() {
-  cd "${_archive}"
   install -Dm755 "${gives}" -t "${pkgdir}/usr/bin"
 }

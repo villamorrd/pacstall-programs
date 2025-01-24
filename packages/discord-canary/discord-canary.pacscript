@@ -1,16 +1,16 @@
 pkgname="discord-canary"
 repology=("project: discord-canary")
-pkgver="0.0.528"
+pkgver="0.0.567"
 maintainer=("DismissedGuy <me@mikealmel.ooo>")
-source=("https://dl-canary.discordapp.net/apps/linux/${pkgver}/${pkgname}-${pkgver}.tar.gz")
+source=("@${pkgname}~${pkgver}::https://dl-canary.discordapp.net/apps/linux/${pkgver}/${pkgname}-${pkgver}.tar.gz")
 url='https://discord.com/'
 depends=("libc6" "libasound2" "libatomic1" "libnotify4" "libnspr4" "libnss3" "libstdc++6" "libxss1" "libxtst6" "libc++1" "libatk1.0-0" "libatk-bridge2.0-0" "libcups2" "libdrm2" "libgtk-3-0" "libgbm1")
 pkgdesc="Chat for Communities and Friends - Unstable"
 arch=('amd64')
-sha256sums=("6a3407592a63a6e69d1654f95955ec4997f9360f2d6b84b219b669ed34dbfbc4")
+sha256sums=("ed0665816a82361af960ad8c3202456198e0f13e44900a0fc040fb97acc51c0c")
 
 package() {
-  cd "${_archive}"
+  cd "${pkgname}~${pkgver}"
   install -dm644 "${pkgdir}/usr/bin"
   install -dm644 "${pkgdir}/usr/share/${pkgname}"
   ln -sf "/usr/share/${pkgname}/DiscordCanary" "${pkgdir}/usr/bin/${pkgname}"

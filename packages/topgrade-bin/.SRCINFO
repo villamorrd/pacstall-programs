@@ -1,6 +1,7 @@
 pkgbase = topgrade-bin
 	gives = topgrade
 	pkgver = 16.0.1
+	pkgrel = 2
 	pkgdesc = Upgrades everything on your system
 	arch = amd64
 	arch = arm64

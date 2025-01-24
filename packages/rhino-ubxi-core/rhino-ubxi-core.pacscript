@@ -8,8 +8,8 @@ compatible=("ubuntu:devel" "ubuntu:plucky")
 replaces=("rhino-core" "rhino-pine-core" "rhino-server-core")
 priority="essential"
 arch=("all")
-pkgver="2024.2"
-pkgrel="2"
+pkgver="2025.1"
+pkgrel="1"
 style="(ubxi)"
 branch="devel"
 
@@ -20,7 +20,7 @@ pre_install() {
 }
 
 package() {
-  cd "${_archive}"
+  cd "${srcdir}"
   mkdir -p "${pkgdir}/usr/lib"
   mkdir -p "${pkgdir}/usr/share/pixmaps"
   for i in ubuntu-logo-text.png ubuntu-logo-text-dark.png; do

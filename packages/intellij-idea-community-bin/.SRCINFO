@@ -1,19 +1,15 @@
 pkgbase = intellij-idea-community-bin
 	gives = intellij-idea-community
-	pkgver = 2024.3.1
-	pkgdesc = IntelliJ IDEA is an IDE for developing computer software written in Java, Kotlin, Groovy, and other JVM-based languages
+	pkgver = 2024.3.2
+	pkgdesc = IDE for developing computer software written in Java, Kotlin, Groovy, and other JVM-based languages
 	arch = amd64
 	arch = arm64
 	maintainer = Gianluca Mastrolonardo <gianlucamastrolonardo10@gmail.com>
 	maintainer = James Ed Randson <jimedrand@disroot.org>
 	repology = project: intellij-idea-community
-	source_amd64 = https://download-cdn.jetbrains.com/idea/ideaIC-2024.3.1.tar.gz
-	source_amd64 = intellij-idea-community.desktop::https://raw.githubusercontent.com/pacstall/pacstall-programs/master/packages/intellij-idea-community-bin/intellij-idea-community.desktop
-	sha256sums_amd64 = b3fbdba793ba9e7800ac1ee4ceedf4726f86d5320c7c0d4e155b5bd10a296777
-	sha256sums_amd64 = 20c489d224f83cf4b29174b8c398e256b1df0e9cb0b920890f39c5796404b293
-	source_arm64 = https://download-cdn.jetbrains.com/idea/ideaIC-2024.3.1-aarch64.tar.gz
-	source_arm64 = intellij-idea-community.desktop::https://raw.githubusercontent.com/pacstall/pacstall-programs/master/packages/intellij-idea-community-bin/intellij-idea-community.desktop
-	sha256sums_arm64 = dc3427884cc1b98cd79d152b9d808a72b99f751dc627063148dce862853819d4
-	sha256sums_arm64 = 20c489d224f83cf4b29174b8c398e256b1df0e9cb0b920890f39c5796404b293
+	source_amd64 = https://download.jetbrains.com/idea/ideaIC-2024.3.2.tar.gz
+	sha256sums_amd64 = ad9d587b704806d9a21dfebe5c51415df94699bba958d7133763cfd56934ced8
+	source_arm64 = https://download.jetbrains.com/idea/ideaIC-2024.3.2-aarch64.tar.gz
+	sha256sums_arm64 = 0135027b97fcabd8f9e31d34cd2444323c63c894ef3f8c6eaf734fbecb8694ef
 
 pkgname = intellij-idea-community-bin

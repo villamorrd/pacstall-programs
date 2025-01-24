@@ -1,13 +1,13 @@
 pkgname="firefox-bin"
 gives="firefox"
-pkgver="132.0.2"
+pkgver="134.0.1"
 repology=("project: ${gives}")
 source=("https://download-installer.cdn.mozilla.net/pub/firefox/releases/${pkgver}/linux-x86_64/en-US/firefox-${pkgver}.tar.bz2")
 url='https://www.mozilla.org/en-US/firefox'
 pkgdesc="Free and open-source web browser developed by the Mozilla Foundation"
 maintainer=("Oren Klopfer <oren@taumoda.com>")
 arch=('amd64')
-sha256sums=("777d47f8b8710ab450582dc0dc0cdf8f43c2291249b3eaf740ee28ee34cda139")
+sha256sums=("81951a7cbe64a63455640919aecced8eef9c7af0c3704aa75995981fa9a4ae7c")
 
 package() {
   cd "${srcdir}"
