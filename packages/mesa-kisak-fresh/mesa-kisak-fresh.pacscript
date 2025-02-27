@@ -1,10 +1,10 @@
 pkgname="mesa-kisak-fresh"
 gives="mesa-kisak-fresh"
-pkgver="24.3.0"
+pkgver="25.0.0"
 pkgdesc="Mesa Fresh from Kisak PPA Sources - No opencl"
 arch=('amd64')
 url='https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa'
-source=("https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa/+sourcefiles/mesa/${pkgver}~kisak1~j/mesa_${pkgver}~kisak1~j.tar.xz")
+source=("https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa/+sourcefiles/mesa/${pkgver}~kisak1~o/mesa_${pkgver}~kisak1~o.tar.xz")
 sha256sum=("3cad69b5a773928040a14e9cfadbca9f074660c9201eba7e73b2e6163ae6514e")
 
 depends=(
@@ -159,7 +159,7 @@ makedepends=(
 pacdeps=("libdrm" "meson-git" "directx-headers-git" "rust-bindgen-git" "wayland-protocols-git")
 repology=("project: mesa")
 maintainer=("xdavius <xdavius@github.com>")
-compatible=("debian:bookworm" "ubuntu:jammy")
+compatible=("debian:bookworm" "ubuntu:oracular" "ubuntu:devel")
 
 prepare() {
   cd mesa-j
