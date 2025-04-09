@@ -8,14 +8,14 @@ depends=(
   "libgegl-0.4-0t64" "libbabl-0.1-0" "zlib1g" "bzip2" "liblzma5"
   "libgexiv2-2" "libpng16-16t64" "libjpeg8" "libtiff6" "librsvg2-2"
   "liblcms2-2" "libpoppler-glib8t64" "poppler-data" "libmypaint-1.5-1" "gvfs"
-  "gobject-introspection" "xsltproc"
+  "gobject-introspection" "libappstream-glib8"
 )
 makedepends=(
   "pkg-config" "gettext" "libgegl-dev" "libbabl-dev" "libgtk-3-dev"
   "libcairo2-dev" "libpango1.0-dev" "zlib1g-dev" "libbz2-dev" "liblzma-dev"
   "libgexiv2-dev" "libpng-dev" "libjpeg-dev" "libtiff-dev" "librsvg2-dev"
   "liblcms2-dev" "libpoppler-glib-dev" "libmypaint-dev" "mypaint-brushes"
-  "libgirepository1.0-dev"
+  "libgirepository1.0-dev" "libappstream-glib-dev" "xsltproc"
 )
 optdepends=(
   "libopenjp2-7: OpenJPEG support"
